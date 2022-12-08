@@ -58,7 +58,7 @@ function App() {
         <img src={charData[0].imageLink} />
       </button> */}
       <div className="sep">
-        {charData.slice(0, 5).map((item) => {
+        {charData.slice(0, 6).map((item) => {
           return (
             <span className="container">
               <img className="charImage" src={item.imageLink}></img>
@@ -76,7 +76,7 @@ function App() {
         })}
       </div>
       <div className="sep2">
-        {charData.slice(5, 11).map((item) => {
+        {charData.slice(6, 12).map((item) => {
           return (
             <span className="container">
               <img className="charImage" src={item.imageLink}></img>
@@ -97,7 +97,7 @@ function App() {
         })}
       </div>
       <div className="sep3">
-        {charData.slice(11, 17).map((item) => {
+        {charData.slice(12, 18).map((item) => {
           return (
             <span className="container">
               <img className="charImage" src={item.imageLink}></img>
@@ -118,7 +118,7 @@ function App() {
         })}
       </div>
       <div className="sep4">
-        {charData.slice(17, 22).map((item) => {
+        {charData.slice(18, 23).map((item) => {
           return (
             <span className="container">
               <img className="charImage" src={item.imageLink}></img>

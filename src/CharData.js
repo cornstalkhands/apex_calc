@@ -131,4 +131,10 @@ export const charData = [
     imageLink: require("./imgs/Vantage.png"),
     rDate: "08/09/2022",
   },
+  {
+    value: "Catalyst",
+    id: 22,
+    imageLink: require("./imgs/Vantage.png"),
+    rDate: "11/01/2022",
+  },
 ];
