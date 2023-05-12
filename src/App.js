@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Header from "./componets/Header";
 import { Helmet } from "react-helmet";
-import { charData } from "./CharData";
+import { charData, classData, assultData,controllerData,reconData,skirmisherData,supportData } from "./CharData";
 function App() {
   const [selectedChar, setChar] = useState(null);
   const [numKills, setNumKills] = useState("");
@@ -58,83 +58,82 @@ function App() {
         <img src={charData[0].imageLink} />
       </button> */}
       <div className="sep">
-        {charData.slice(0, 6).map((item) => {
+        <img className="classImage" src={classData[0].imageLink}></img>
+        {assultData.map((item) => {
           return (
-            <span className="container">
-              <img className="charImage" src={item.imageLink}></img>
               <button
                 className={
                   selectedChar === item.id
-                    ? "selected_charButton"
-                    : "charButton"
+                    ? "selected_charButtonAss"
+                    : "charButtonAss"
                 }
                 key={item.id}
                 onClick={() => charChanged(item.id)}
               ></button>
-            </span>
           );
         })}
       </div>
       <div className="sep2">
-        {charData.slice(6, 12).map((item) => {
+      <img className="classImage" src={classData[1].imageLink}></img>
+        {controllerData.map((item) => {
           return (
-            <span className="container">
-              <img className="charImage" src={item.imageLink}></img>
               <button
                 className={
                   selectedChar === item.id
-                    ? "selected_charButton"
-                    : "charButton"
+                    ? "selected_charButtonCon"
+                    : "charButtonCon"
                 }
                 key={item.id}
-                onClick={() => {
-                  setChar(item.id);
-                  Calc();
-                }}
+                onClick={() => charChanged(item.id)}
               ></button>
-            </span>
           );
         })}
       </div>
       <div className="sep3">
-        {charData.slice(12, 18).map((item) => {
+      <img className="classImage" src={classData[2].imageLink}></img>
+        {reconData.map((item) => {
           return (
-            <span className="container">
-              <img className="charImage" src={item.imageLink}></img>
               <button
                 className={
                   selectedChar === item.id
-                    ? "selected_charButton"
-                    : "charButton"
+                    ? "selected_charButtonRec"
+                    : "charButtonRec"
                 }
                 key={item.id}
-                onClick={() => {
-                  setChar(item.id);
-                  Calc();
-                }}
+                onClick={() => charChanged(item.id)}
               ></button>
-            </span>
           );
         })}
       </div>
       <div className="sep4">
-        {charData.slice(18, 23).map((item) => {
+      <img className="classImage" src={classData[3].imageLink}></img>
+        {skirmisherData.map((item) => {
           return (
-            <span className="container">
-              <img className="charImage" src={item.imageLink}></img>
               <button
                 className={
                   selectedChar === item.id
-                    ? "selected_charButton"
-                    : "charButton"
+                    ? "selected_charButtonSkirm"
+                    : "charButtonSkirm"
                 }
                 key={item.id}
-                onClick={() => {
-                  setChar(item.id);
-                  Calc();
-                }}
+                onClick={() => charChanged(item.id)}
               ></button>
-            </span>
+          );
+        })}
+      </div>
+      <div className="sep5">
+      <img className="classImage" src={classData[4].imageLink}></img>
+        {supportData.map((item) => {
+          return (
+              <button
+                className={
+                  selectedChar === item.id
+                    ? "selected_charButtonSup"
+                    : "charButtonSup"
+                }
+                key={item.id}
+                onClick={() => charChanged(item.id)}
+              ></button>
           );
         })}
       </div>

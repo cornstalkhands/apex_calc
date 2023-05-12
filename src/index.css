@@ -38,34 +38,175 @@ code {
   padding-left: 9px;
 }
 
-.charButton {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 33px;
-  -ms-transform: skewX(-29deg);
+.classImage {
+  position: relative;
+  padding-left: 15px;
+}
+.charButtonAss {
+  position: relative;
+  width: 115px;
+  height: 130px;
+  top: -58px;
+  right: 729px;
+  z-index: 1000;
+  margin-right: 7px;
+  /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
-  transform: skewX(-29deg);
+  transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
-  border-color: white;
+  /* border-color: yellow; */
 }
-.selected_charButton {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 33px;
-  -ms-transform: skewX(-29deg);
+.selected_charButtonAss {
+  position: relative;
+  width: 115px;
+  height: 137px;
+  top: -60px;
+  right: 729px;
+  z-index: 1000;
+  margin-right: 7px;
+  /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
-  transform: skewX(-29deg);
+  transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
   border-color: purple;
   border-width: 6px;
 }
+.charButtonCon {
+  position: relative;
+  width: 115px;
+  height: 130px;
+  top: -58px;
+  right: 481px;
+  z-index: 1000;
+  margin-right: 7px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  /* border-color: white; */
+  /* border-color: yellow; */
+}
+.selected_charButtonCon {
+  position: relative;
+  width: 115px;
+  height: 137px;
+  top: -58px;
+  right: 481px;
+  z-index: 1000;
+  margin-right: 7px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  border-color: purple;
+  border-width: 6px;
+}
+
+.charButtonRec {
+  position: relative;
+  width: 114px;
+  height: 130px;
+  top: -58px;
+  right: 481px;
+  z-index: 1000;
+  margin-right: 7px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  /* border-color: white; */
+  /* border-color: yellow; */
+}
+.selected_charButtonRec {
+  position: relative;
+  width: 115px;
+  height: 137px;
+  top: -58px;
+  right: 481px;
+  z-index: 1000;
+  margin-right: 7px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  border-color: purple;
+  border-width: 6px;
+}
+
+.charButtonSkirm {
+  position: relative;
+  width: 114px;
+  height: 130px;
+  top: -58px;
+  right: 604px;
+  z-index: 1000;
+  margin-right: 8px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  /* border-color: white; */
+  /* border-color: yellow; */
+}
+.selected_charButtonSkirm {
+  position: relative;
+  width: 114px;
+  height: 137px;
+  top: -58px;
+  right: 604px;
+  z-index: 1000;
+  margin-right: 8px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  border-color: purple;
+  border-width: 6px;
+}
+
+.charButtonSup {
+  position: relative;
+  width: 114px;
+  height: 130px;
+  top: -58px;
+  right: 603px;
+  z-index: 1000;
+  margin-right: 8px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  /* border-color: white; */
+  /* border-color: yellow; */
+}
+.selected_charButtonSup {
+  position: relative;
+  width: 114px;
+  height: 137px;
+  top: -58px;
+  right: 604px;
+  z-index: 1000;
+  margin-right: 8px;
+  /* -ms-transform: skewX(-29deg);
+  -webkit-transform: skewX(-29deg);
+  transform: skewX(-29deg); */
+  cursor: pointer;
+  background-color: transparent;
+  border-color: purple;
+  border-width: 6px;
+}
+
 .sep {
   position: absolute;
-  width: auto;
   height: 10%;
   top: 15%;
   /* border-width: 3px;
@@ -74,7 +215,7 @@ code {
 }
 .sep2 {
   position: absolute;
-  width: auto;
+  padding-top: 30px;
   height: 10%;
   top: 27%;
   /* border-width: 3px;
@@ -83,7 +224,8 @@ code {
 }
 .sep3 {
   position: absolute;
-  width: auto;
+  /* width: auto; */
+  padding-top: 60px;
   height: 10%;
   top: 39%;
   /* border-width: 3px;
@@ -93,8 +235,19 @@ code {
 .sep4 {
   position: absolute;
   width: auto;
+  padding-top: 90px;
   height: 10%;
   top: 51%;
+  /* border-width: 3px;
+  border-color: white;
+  border-style: solid; */
+}
+.sep5 {
+  position: absolute;
+  width: auto;
+  padding-top: 90px;
+  height: 10%;
+  top: 65%;
   /* border-width: 3px;
   border-color: white;
   border-style: solid; */
