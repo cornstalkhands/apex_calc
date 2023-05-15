@@ -58,7 +58,7 @@ function App() {
         <img src={charData[0].imageLink} />
       </button> */}
       <div className="sep">
-        <img className="classImage" src={classData[0].imageLink}></img>
+        <img className="classImageAss" src={classData[0].imageLink}></img>
         {assultData.map((item) => {
           return (
               <button
@@ -74,7 +74,7 @@ function App() {
         })}
       </div>
       <div className="sep2">
-      <img className="classImage" src={classData[1].imageLink}></img>
+      <img className="classImageCon" src={classData[1].imageLink}></img>
         {controllerData.map((item) => {
           return (
               <button
@@ -90,7 +90,7 @@ function App() {
         })}
       </div>
       <div className="sep3">
-      <img className="classImage" src={classData[2].imageLink}></img>
+      <img className="classImageRec" src={classData[2].imageLink}></img>
         {reconData.map((item) => {
           return (
               <button
@@ -106,7 +106,7 @@ function App() {
         })}
       </div>
       <div className="sep4">
-      <img className="classImage" src={classData[3].imageLink}></img>
+      <img className="classImageSkirm" src={classData[3].imageLink}></img>
         {skirmisherData.map((item) => {
           return (
               <button
@@ -122,7 +122,7 @@ function App() {
         })}
       </div>
       <div className="sep5">
-      <img className="classImage" src={classData[4].imageLink}></img>
+      <img className="classImageSup" src={classData[4].imageLink}></img>
         {supportData.map((item) => {
           return (
               <button

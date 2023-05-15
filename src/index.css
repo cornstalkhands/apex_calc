@@ -30,41 +30,37 @@ code {
   position: relative;
 }
 
-.charImage {
+.classImageAss {
   position: relative;
-  width: 150px;
-  height: 100px;
-  margin-right: -50px;
-  padding-left: 9px;
-}
-
-.classImage {
-  position: relative;
-  padding-left: 15px;
+  right: 50px;
+  scale: .8;
 }
 .charButtonAss {
   position: relative;
   width: 115px;
   height: 130px;
-  top: -58px;
-  right: 729px;
+  top: -53px;
+  right: 720px;
   z-index: 1000;
-  margin-right: 7px;
+  margin-right: -16px;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
+  border-color: transparent;
+  scale: .8;
   /* border-color: yellow; */
 }
 .selected_charButtonAss {
   position: relative;
   width: 115px;
   height: 137px;
-  top: -60px;
-  right: 729px;
+  top: -53px;
+  right: 720px;
   z-index: 1000;
-  margin-right: 7px;
+  scale: .8;
+  margin-right: -16px;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
@@ -73,19 +69,27 @@ code {
   border-color: purple;
   border-width: 6px;
 }
+
+.classImageCon {
+  position: relative;
+  right: -73px;
+  scale: .8;
+}
 .charButtonCon {
   position: relative;
   width: 115px;
   height: 130px;
-  top: -58px;
-  right: 481px;
+  top: -53px;
+  right: 374px;
   z-index: 1000;
-  margin-right: 7px;
+  margin-right: -17px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
+  border-color: transparent;
   /* border-color: white; */
   /* border-color: yellow; */
 }
@@ -93,10 +97,11 @@ code {
   position: relative;
   width: 115px;
   height: 137px;
-  top: -58px;
-  right: 481px;
+  top: -53px;
+  right: 374px;
   z-index: 1000;
-  margin-right: 7px;
+  margin-right: -17px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
@@ -106,19 +111,26 @@ code {
   border-width: 6px;
 }
 
+.classImageRec {
+  position: relative;
+  right: -73px;
+  scale: .8;
+}
 .charButtonRec {
   position: relative;
   width: 114px;
   height: 130px;
-  top: -58px;
-  right: 481px;
+  top: -54px;
+  right: 374px;
   z-index: 1000;
-  margin-right: 7px;
+  margin-right: -17px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
+  border-color: transparent;
   /* border-color: white; */
   /* border-color: yellow; */
 }
@@ -126,10 +138,11 @@ code {
   position: relative;
   width: 115px;
   height: 137px;
-  top: -58px;
-  right: 481px;
+  top: -54px;
+  right: 374px;
   z-index: 1000;
-  margin-right: 7px;
+  margin-right: -17px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
@@ -139,19 +152,26 @@ code {
   border-width: 6px;
 }
 
+.classImageSkirm {
+  position: relative;
+  right: -14px;
+  scale: .8;
+}
 .charButtonSkirm {
   position: relative;
   width: 114px;
   height: 130px;
-  top: -58px;
-  right: 604px;
+  top: -52px;
+  right: 543px;
   z-index: 1000;
-  margin-right: 8px;
+  margin-right: -16px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
+  border-color: transparent;
   /* border-color: white; */
   /* border-color: yellow; */
 }
@@ -159,10 +179,11 @@ code {
   position: relative;
   width: 114px;
   height: 137px;
-  top: -58px;
-  right: 604px;
+  top: -52px;
+  right: 543px;
   z-index: 1000;
-  margin-right: 8px;
+  margin-right: -16px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
@@ -172,19 +193,26 @@ code {
   border-width: 6px;
 }
 
+.classImageSup {
+  position: relative;
+  right: -14px;
+  scale: .8;
+}
 .charButtonSup {
   position: relative;
   width: 114px;
   height: 130px;
-  top: -58px;
-  right: 603px;
+  top: -53px;
+  right: 543px;
   z-index: 1000;
-  margin-right: 8px;
+  margin-right: -16px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
   cursor: pointer;
   background-color: transparent;
+  border-color: transparent;
   /* border-color: white; */
   /* border-color: yellow; */
 }
@@ -192,10 +220,11 @@ code {
   position: relative;
   width: 114px;
   height: 137px;
-  top: -58px;
-  right: 604px;
+  top: -53px;
+  right: 543px;
   z-index: 1000;
-  margin-right: 8px;
+  margin-right: -16px;
+  scale: .8;
   /* -ms-transform: skewX(-29deg);
   -webkit-transform: skewX(-29deg);
   transform: skewX(-29deg); */
@@ -208,7 +237,7 @@ code {
 .sep {
   position: absolute;
   height: 10%;
-  top: 15%;
+  top: 7.5%;
   /* border-width: 3px;
   border-color: white;
   border-style: solid; */
@@ -217,7 +246,7 @@ code {
   position: absolute;
   padding-top: 30px;
   height: 10%;
-  top: 27%;
+  top: 21%;
   /* border-width: 3px;
   border-color: white;
   border-style: solid; */
@@ -227,7 +256,7 @@ code {
   /* width: auto; */
   padding-top: 60px;
   height: 10%;
-  top: 39%;
+  top: 34.5%;
   /* border-width: 3px;
   border-color: white;
   border-style: solid; */
@@ -237,7 +266,7 @@ code {
   width: auto;
   padding-top: 90px;
   height: 10%;
-  top: 51%;
+  top: 48%;
   /* border-width: 3px;
   border-color: white;
   border-style: solid; */
